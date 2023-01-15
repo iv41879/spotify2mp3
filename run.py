@@ -20,6 +20,8 @@ from youtube_search import YoutubeSearch
 from pytube import YouTube
 from pytube import Playlist
 
+os.environ["IMAGEIO_FFMPEG_EXE"] = "/Users/ivan/dev/spotify2mp3/ffmpeg"
+
 import moviepy.editor as mp
 from moviepy.editor import *
 
